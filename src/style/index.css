@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: "Corbert-Medium", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header-logo{
+  max-width: 100%;
+  height: auto;
+}
+.breadcrumb li{
+  margin-left: 50%;
+}
+.ok{
+  text-decoration: none;
+  color: black;
+}
+
+.header-submenu{
+  color:'#fff' !important;
+  font-size: '10px' !important;
+  text-transform:'uppercase' !important;
+}
+
+.video-container {
+  margin-top: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: none;
+}
+
+.responsive-video {
+  width: 100%;
+  height: auto;
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+}
+
+.headerlayout li{
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+}
+
+.headerlayout li a{
+  text-decoration: none;
+}
+
