@@ -1,67 +1,54 @@
-*{
-    margin: 0;
-}
 
-.footer{
-    background-color: #f5f5f5;
-    width: 100%;
-    height: 550px;
-    margin-top: 4%;
-}
-.address p{
-    margin-top: 2px!important;
-    line-height: 1px;
-
-}
 .logo img{
-    margin-top: 9%;
-    width: 174px;
-    height: 120px;
-
+    width: 125px;
+    height: 100px;
 }
-.qr img{
-    height: 73px;
-    width: 73px;
-    margin-top: 0px;
+.address h4{
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
 }
-
-.quickLink h3{
-    margin-top: 60px!important;
-    font-size: 18px;
-    font-weight: 400;
-
+.qr-code img{
+    height: 80px;
+    width: 80px;
 }
-
-.link a{
-    margin-top:25px;
+.quicklink{
+    padding-top: 48px;
+}
+.quicklink h4{
+    text-transform: uppercase;
+}
+.products{
+    padding-top: 40px;
+}
+.products h4{
+    text-transform: uppercase;
+}
+.link{
+    text-transform: uppercase;
     text-decoration: none;
     color: black;
-    font-weight: 600;
+    word-spacing: 5px;
 }
-
-.product h3{
-    margin-top: 60px!important;
-    font-size: 18px;
-    font-weight: 400;
+.simpolo{
+    margin-left: 40%;
 }
-.product a{
-    text-decoration: none;
+.enquiry{
+    padding-top: 10px;
+}
+.enquiry :hover{
+    text-decoration: underline;
     color: black;
-    font-weight: 600;
 }
-
-.career{
-    margin-top: 40px!important;
+.tile{
+    padding-top: 10px;
 }
-.career a{
-    text-decoration: none;
+.tile :hover{
+    text-decoration: underline;
     color: black;
-    font-weight: 600;
 }
-.certificates{
-    margin-top: 0px;
-}
-.certificates img{
-    height: 45px;
-    margin-top: -95px !important;
+.certificate img{
+    width: 100%;
+    height: auto;
 }

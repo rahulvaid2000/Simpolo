@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.vision h3{
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: black;
+    letter-spacing:1ex;
+    text-align: center;
+}
+
+.chairman img{
+    padding-top: 15px;
+    width: 74%;
+    height: 80%;
+}
+.para{
+    padding-top: 25px;
+    height: 100%;
+    width: 100%;
+}
+.first{
+    padding-top: 45px;
+}
+.para h4{
+    text-transform: uppercase;
+    font-weight: 300;
+    color: black;
+    letter-spacing:1ex;
+}
