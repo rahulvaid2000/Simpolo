@@ -1,14 +1,14 @@
 import {React } from 'react';
 import { Link } from "react-router-dom";
 import Simpolo from './assets/Logo.png';
-const Header = () => {
+const HeaderPageLayout = () => {
 
     return (
       <>
     {/* Creating Navbar */} 
 
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <div className="container-fluid">
+  <div className="container">
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -71,7 +71,7 @@ const Header = () => {
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><Link className="dropdown-item" to="#">Director's Message</Link></li>
             <li><Link className="dropdown-item" to="/company">Company Profile</Link></li>
-            <li><Link className="dropdown-item" to="#">Mission & Vision</Link></li>
+            <li><Link className="dropdown-item" to="mission-vision">Mission & Vision</Link></li>
             <li><Link className="dropdown-item" to="/RND">R & D</Link></li>
           </ul>
         </li>
@@ -88,10 +88,10 @@ const Header = () => {
           </ul>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/Applications">Applications</Link>
+          <Link className="nav-link active" aria-current="page" to="/applications">Applications</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/Downloads">Downloads</Link>
+          <Link className="nav-link active" aria-current="page" to="/downloads">Downloads</Link>
         </li>
         <li className="nav-item dropdown">
           <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -126,4 +126,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default HeaderPageLayout;

@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.application{
+    padding-top: 25px;
+}
+.application h4{
+    color: red;
+    text-transform: capitalize;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.application h1{
+    color: black;
+    text-transform: capitalize;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.application h3{
+    color: rgba(148, 148, 148, 0.789);
+    padding-top: 45px;
+    text-transform: capitalize;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.icon-f{
+    background-color: red;
+    height: 120px;
+    width: 100%;
+}
+
+.jhanda{
+         height:80px;
+         width: 54px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 15px;
+         padding-top: 30px;
+}
+.image img{
+    height: auto;
+    width: 100%;
+}
+.content h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 300;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    margin-top: 15px;
+}
+
+.gif img{
+    padding-top: 60px;
+    width: 100%;
+}
+.strengths{
+    padding-top: 60px;
+}
+
+.strengths h2{
+    color: red;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+.strengths h1{
+    color: black;
+    text-transform: capitalize;
+    font-weight: 300;
+    letter-spacing: 5px;
+    padding-top: 15px;
+}
+.strengths h3{
+    color: rgb(186, 180, 180);
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.strengths h4{
+    color:black;
+    text-transform: capitalize;
+    font-weight: 300;
+    letter-spacing: 5px;
+    padding-top: 5px;
+}
