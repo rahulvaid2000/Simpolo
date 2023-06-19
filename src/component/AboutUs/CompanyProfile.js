@@ -10,7 +10,7 @@ const CompanyProfile = () => {
              <img src={company} alt=""  />
            </div>
            <div className="col-md-5 ">
-            <h3>THE SIMPOLO <br />
+            <h3>THE World <br />
              PHILOSOPHY</h3>
              <p>Since the first steps were taken in the year 1977, Simpolo Ceramics has carved its niche as a consistently growing organisation with unparalleled innovation and passion rooted in simplicity.
             </p>
