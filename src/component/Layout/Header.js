@@ -16,13 +16,13 @@ const HeaderMenu = () => {
             <Link to= "director-message">     Director's Message</Link>   
             </Menu.Item>
             <Menu.Item key="2" className="header-submenu">
-                Company Profile
+            <Link to= "company-profile">   Company Profile</Link>
             </Menu.Item>
             <Menu.Item key="3" className="header-submenu">
             <Link to="mission-vision">MissionAndVision</Link>
             </Menu.Item>
             <Menu.Item key="4" className="header-submenu">
-                R & D
+            <Link to="r-d"> R & D </Link>
             </Menu.Item>
         </Menu>
     );
