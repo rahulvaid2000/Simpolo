@@ -20,6 +20,8 @@ const ContentPage = () => {
           <Route path="ballClay" element={<BallClay />} />
           <Route path="silica-sand" element={<SilicaSand />} />
           <Route path="downloads" element={<Downloads />} />
+          <Route path="r-d" element={<RND/>} />
+         
 
 
 
