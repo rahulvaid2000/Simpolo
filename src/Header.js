@@ -99,7 +99,7 @@ const HeaderPageLayout = () => {
             CONTACT US
           </Link>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><Link className="dropdown-item" to="#">Enquiry</Link></li>
+            <li><Link className="dropdown-item" to="enquiry">Enquiry</Link></li>
             <li><Link className="dropdown-item" to="#">Feedback</Link></li>
             <li><Link className="dropdown-item" to="#">Contact Details</Link></li>
           </ul>

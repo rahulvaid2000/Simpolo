@@ -10,11 +10,12 @@ const {Header, Footer, Content} = Layout;
 const PageLayout = () => {
     return (
         <Layout className="layout">
-            <div style={{padding: "10px"}}>
+            <div style={{paddingTop: "10px"}}>
                 <Header style={{background:"#ffff !important" , paddingInline:"0px"}}>
                     <HeaderMenu />
                 </Header>
             </div>
+            
             <Content style={{background:"#ffff !important"}}>
                 <ContentPage />
             </Content>

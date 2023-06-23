@@ -1,0 +1,29 @@
+.dropdownF{
+    padding-top: 25px;
+}
+.form-control{
+    font-size: 14px;
+    color: #999999;
+    height: 50px;
+    border-radius: 1px !important ;
+    /* border:1px solid black!important; */
+}
+textarea.form-control {
+    padding: 10px;
+    height: 178px;
+}
+
+.time{
+    height: 80px!important;
+}
+.submit :hover{
+      background-color: white !important;
+      color: black !important;
+      /* transition: 0.5s!important; */
+      transition: 0.6s!important;
+      
+}
+.onSubmit{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}

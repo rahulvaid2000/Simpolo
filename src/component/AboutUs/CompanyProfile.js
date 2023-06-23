@@ -6,10 +6,10 @@ const CompanyProfile = () => {
       return (
       <div className="container">
         <div className="row">
-           <div className="col-md-6">
+           <div className="col-md-6 mt-2">
              <img src={company} alt=""  />
            </div>
-           <div className="col-md-5 ">
+           <div className="col-md-5 mt-2">
             <h3>THE SIMPOLO <br />
              PHILOSOPHY</h3>
              <p>Since the first steps were taken in the year 1977, Simpolo Ceramics has carved its niche as a consistently growing organisation with unparalleled innovation and passion rooted in simplicity.

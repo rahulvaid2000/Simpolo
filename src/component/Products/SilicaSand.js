@@ -8,10 +8,10 @@ const SilicaSand = () => {
             <div className="post-content">
                 <div className="row">
                     <div className="col-lg-6 col-sm-12">
-                    <div className="image-container">
+                    <div className="image-container mt-4">
                               <img
                                 src="https://i0.wp.com/jldminerals.com/wp-content/uploads/2022/06/Silica-sand-1.png?fit=524%2C452&ssl=1"
-                                style={{marginTop: "0px"}}
+                               
                             />
                         </div>
                     </div>
