@@ -7,7 +7,7 @@ const DirectorsMessage = () => {
         <div className="container">             
     <div className="vision">
         <h3>
-            cmd speak
+            CMD SPEAK
         </h3>
         <div className="row">
             <div className="col-lg-6 col-sm-12">
@@ -17,12 +17,12 @@ const DirectorsMessage = () => {
             </div>
             <div className="col-lg-6 col-sm-12">
                 <div className="para">
-                    <h4>  
-                        moving towards a 
-                        new vision of reality 
-                        where innovation is 
+                    <h3>  
+                        moving towards a <br/>
+                        new vision of reality <br/>
+                        where innovation is <br/>
                         the new art of fascination
-                    </h4>
+                    </h3>
                     <p className="first">
                         Dear Simpolian,
                    </p>

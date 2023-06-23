@@ -1,5 +1,5 @@
 import React from "react";
-import { Document, Page } from 'react-pdf';
+// import { Document, Page } from 'react-pdf';
 import pdfFile from '../../assets/Catelogue.pdf';
 import { Button } from "antd";
 

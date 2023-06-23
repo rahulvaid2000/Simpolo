@@ -27,8 +27,6 @@ const ContentPage = () => {
           <Route path="feedback" element={<Feedback />} />
           <Route path="bentonite" element={<Bentonite />} />
           <Route path="r-d" element={<RND />} />
-
-        
       </Routes> 
     )
 }
